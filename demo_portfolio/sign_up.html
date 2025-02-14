@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign Up</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="portfolio.html">Portfolio</a></li>
+                <li><a href="contact.html">Contact</a></li>
+                <li><a href="sign_in.html">Sign in</a></li>
+                <li class="active"><a href="sign_up.html">Sign up</a></li>
+            </ul>
+        </nav>
+    </header>
+    
+    <section class="sign_up">
+        <h1>Sign Up</h1>
+        <form action="sign_up.php" method="POST">
+
+            <label for="first_name">First Name:</label> <br>
+            <input type="text" id="first_name" name="first_name" required> <br>
+
+            <label for="last_name">Last Name:</label> <br>
+            <input type="text" id="last_name" name="last_name" required> <br>
+            
+            <label for="new-username">Username:</label> <br>
+            <input type="text" id="new-username" name="new-username" required> <br>
+            
+            <label for="new-email">Email:</label> <br>
+            <input type="email" id="new-email" name="new-email" required> <br>
+            
+            <label for="new-password">Password:</label> <br>
+            <input type="password" id="new-password" name="new-password" required> <br>
+            
+            <button type="submit">Sign Up</button>
+        </form>
+    </section>
+    
+    <footer>
+        <ul>
+            <li><a href="terms.html">Terms and Conditions</a></li>
+            <li><a href="privacy.html">Privacy Policy</a></li>
+            <li><a href="cookies.html">Cookie Policy</a></li>
+        </ul>
+    </footer>
+</body>
+</html>
